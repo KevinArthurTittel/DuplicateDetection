@@ -1,4 +1,4 @@
-# LSH-Based Web Product Duplicate DetectionExploiting Model Words Set Adjustments
+# LSH-Based Web Product Duplicate Detection Exploiting Model Words Set Adjustments
 
 For the MSc Econometrics & Management Science, specializing in Business Analytics & Quantitative Marketing [BAQM], at the Erasmus School of Economics [ESE] in Rotterdam, I have written a research project for the course "Computer Science." The research goal was to find duplicates of products in a large set of tv products whilst combatting scalability issues. In particular, Locality-Sensitive Hashing was applied on a specific set of model words, followed by Jaccard similarity and hierarchical clustering.
 
