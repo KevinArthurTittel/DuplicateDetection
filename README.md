@@ -1,1 +1,5 @@
-# DuplicateDetection
+# LSH-Based Web Product Duplicate DetectionExploiting Model Words Set Adjustments
+
+For the MSc Econometrics & Management Science, specializing in Business Analytics & Quantitative Marketing [BAQM], at the Erasmus School of Economics [ESE] in Rotterdam, I have written a research project for the course "Computer Science." The research goal was to find duplicates of products in a large set of tv products whilst combatting scalability issues. In particular, Locality-Sensitive Hashing was applied on a specific set of model words, followed by Jaccard similarity and hierarchical clustering.
+
+In the code, first packages are installed, data is imported ("TVs-all-merged.json") and cleaned. Next, a set of model words is established. Then, a binary matrix is constructed, where the set of model words is compared to each of the products' titles with or without key-value pair features. Next, this binary matrix is transformed into a signature matriux as an input for LSH. Given the candidate pairs coming out of LSH Jaccard similarity is applied to form a distance matrix, and lastly hierarchical clustering is applied to find supposed duplicates.
